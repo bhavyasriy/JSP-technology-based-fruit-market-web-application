@@ -1,0 +1,42 @@
+/* style.css (C:\Program Files\Apache Software Foundation\Tomcat 8.5\webapps\Fruit ) */
+
+
+
+button
+{
+	background-color: green;
+	color:white;
+	padding:10px 18px;
+	margin: 10px;
+	border:none;
+	cursor:pointer;
+	width:auto;
+}
+button:hover
+{
+	opacity:0.9;
+}
+
+form
+{
+	background-color: yellow;
+	border-bottom-color:	lightblue;
+	border: 2px solid blue;
+	margin: auto;
+	margin-left: 30%;
+	position: absolute;
+	top: 42%;
+	width:45%;
+	padding:10px 10px;
+}
+
+input[type=text],[type=password]
+{
+		border-color:pink;
+		padding:7px 12px;
+		margin: 8px 0px;
+		border: 1px solid pink;
+		display:inline-block;
+		box-sizing:border-box;
+}
+
