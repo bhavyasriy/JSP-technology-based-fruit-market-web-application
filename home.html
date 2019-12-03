@@ -1,0 +1,47 @@
+<!--home.html (C:\Program Files\Apache Software Foundation\Tomcat 8.5\webapps\Fruit )-->
+
+
+
+
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<script>
+function call(e)
+{
+if(e.target.value=="Banana")
+{
+
+document.getElementById("m").value="10";
+}
+else
+{
+document.getElementById("m").value="20"
+}
+} 
+</script>
+
+</head>
+<body bgcolor="pink">
+<center>
+<img src="fruit.jpg" height="40%" width="50%">
+
+<form action="First1.jsp" method="get" >
+<table>
+<tr><td>
+ITEM NAME <select name="item" onchange="call(event)">
+ <option value="Banana">Banana </option>
+ <option value="Custard Apple">Custard Apple</option>
+ </select></td>
+</tr>
+<td>
+ITEM QTY :<input type="text" name="qty"/></td></tr>
+<tr><td>
+ITEM PRICE : <input id="m" type="text" name="price"/></td></tr>
+<tr><td><center>
+<button> ENTER</center></td></tr>
+</table>
+</form>
+</center>
+</body>
+</html>	
